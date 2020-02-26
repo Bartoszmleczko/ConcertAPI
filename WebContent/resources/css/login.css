@@ -1,0 +1,218 @@
+body {
+  font-family: 'Lato';
+      background: #2b63a2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top:20px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  text-align:center;
+}
+
+hr.star-light,
+hr.star-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+hr.star-light:after,
+hr.star-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f005';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+}
+
+
+section {
+  padding: 6rem 0;
+}
+
+section h2 {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+
+.btn-lp {
+	margin-left: 5px;
+}
+
+
+
+
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+}
+
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+  letter-spacing: 0.0625rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #18BC9C;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #18BC9C;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+ #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #18BC9C;
+  }
+  
+  
+  @media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(6rem + 106px);
+    padding-bottom: 6rem;
+  }
+  header.masthead h1 {
+    font-size: 4.75em;
+    line-height: 4rem;
+  }
+  header.masthead h2 {
+    font-size: 1.75em;
+  }
+}
+
+.formularz{
+		margin-top:10px;
+		background-color: rgba(24, 188, 156, 0.9);
+}
+.groupie{
+	margin-top:10px;
+}
+
+.rejestracja{
+	background-color:#bc1838;
+}
+.zakup{
+	
+	margin-top:5px;
+	background-color:#bc1838;
+}
+
+.dropdown-margin{
+	margin-top:10px;
+
+}
+.descr{
+		margin-top:40px;
+	 font-weight: 700;
+  font-family: 'Montserrat';
+  text-align:center;
+			background-color: rgba(24, 188, 156, 0.9);
+}
+.genreDivs{
+	
+	border: 2px solid ;
+	margin-bottom: 5px;
+	background:	#868ab7;
+}
+.ticketDivs{
+	
+	border: 2px solid ;
+	margin-bottom: 5px;
+	margin-top:15px;
+	background: #40a1b2;
+}
+
+.btn-block{
+	margin-bottom: 10px;
+
+	padding-right:5px;
+}
+
+.form-custom{
+	
+	margin-top: 5px;
+}
+
+
+
+.btn:nth-child(even) {background: 	#A0522D;
+border-color: #A0522D;
+}
+
+.dropdown-shop {background:	#2d7ba0; margin-top:10px; margin-bottom:10px;}
+.dropdown-shop:hover{background:	#2d7ba0; }
+
+.dropdown-div{
+	opacity: 0.9;
+	background:	#2da052;
+}
+.concert_div{
+	background: #868ab7;
+	padding: 10px;
+
+
+}
+.row-div{
+	background:	#868ab7;
+	margin-bottom:20px;	
+		opacity: 0.9;
+	font-size: 24px;
+	margin-top:120px;	
+	width:100%;
+}
+.new-height{
+	height:100px !important;
+	}
+.con-style{
+	
+background: #4072ab;
+}
+.error{
+	color:red;
+}
+.login-form{
+	color:white;
+	background: #4072ab;
+	}
